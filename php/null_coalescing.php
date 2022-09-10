@@ -7,5 +7,12 @@ var_dump($usuario);
 echo PHP_EOL;
 
 // depois do php
-$usuario = $data['user'] ?? 'else?';
+$usuario = $data['usuario'] ?? 'else?';
+var_dump($usuario);
+
+echo PHP_EOL;
+
+// depois do php 7.4
+$usuario = $data['usuario'] ??= 'else?';
+
 var_dump($usuario);
