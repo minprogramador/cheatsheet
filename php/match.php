@@ -31,3 +31,14 @@ $resultado = match (true) {
 };
 echo PHP_EOL;
 var_dump($resultado);
+
+$message = match ($statusCode) {
+    200, 300, 301, 302 => 'combined expressions',
+};
+
+echo PHP_EOL;
+
+echo match (8.0) {
+    '8.0' => "Oh no!",
+     8.0 => "This is what I expected",
+};
