@@ -9,3 +9,7 @@ $var3 = function ($param = 'closure') use ($texto) {
 echo PHP_EOL;
 
 echo $var3('1 com use $texto');
+
+if ($text === 'closure') {
+    echo 'ok';
+}

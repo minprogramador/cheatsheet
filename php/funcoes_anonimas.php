@@ -1,6 +1,5 @@
 <?php
 
-
 $function = [
     'up' => function ($texto) {
         return mb_strtoupper($texto);
