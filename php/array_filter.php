@@ -10,7 +10,7 @@
 $numeros = [10, 13, 15, 20];
 
 $func = function ($item) {
-    return ($item % 5) == 0;
+    return $item > 13;
 };
 
 $numeros = array_filter($numeros, $func);
