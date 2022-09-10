@@ -31,7 +31,7 @@ echo "rodei no final agora";
 
 // $value = $fiber->start();
 // echo "Valor da suspensão da fibra: {$value}\n";
-while($res = $fiber->resume() and $res2 = $fiber2->resume()) {
+while ($res = $fiber->resume() and $res2 = $fiber2->resume()) {
     echo $res;
     echo "\n\n";
     echo $res2;
