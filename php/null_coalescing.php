@@ -12,7 +12,10 @@ var_dump($usuario);
 
 echo PHP_EOL;
 
-// depois do php 7.4
-$usuario = $data['usuario'] ??= 'else?';
+//mock $data[...]
+$data['usuario'] = 'manoel';
 
-var_dump($usuario);
+// depois do php 7.4
+$data['usuario'] ??= 'else?';
+
+var_dump($data['usuario']);
