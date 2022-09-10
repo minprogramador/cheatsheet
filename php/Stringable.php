@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Mesma cois que __toString o Stringable
+ * Para ter certeza que $pessoa é __toString na hora de usar.
  */
 
 namespace App;
